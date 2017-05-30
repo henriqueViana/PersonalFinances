@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuItem from './menuItem';
-import MenuTree from './menuTree';
+import MenuItem from './MenuItem';
+import MenuTree from './MenuTree';
 
 export default props => (
   <ul className='sidebar-menu'>

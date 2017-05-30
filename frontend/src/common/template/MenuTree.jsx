@@ -3,9 +3,9 @@ import React from 'react';
 export default props => (
   <li className='treeview'>
     <a href>
-      <i className={`fa fa-${props.icon}`}></i>
+      <span className={`fa fa-${props.icon}`}></span>
       {props.label}
-      <i className='fa fa-angle-down pull-right'></i>
+      <span className='fa fa-angle-down pull-right'></span>
     </a>
     <ul className='treeview-menu'>
       {props.children}

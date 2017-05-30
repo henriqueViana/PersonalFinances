@@ -6,10 +6,10 @@ export default props => (
     
     <a href='/#/' className='logo'>
       <span className='logo-mini'>
-        <i className='fa fa-money'></i>
+        <span className='fa fa-money'></span>
       </span>
       <span className='logo-lg'>
-        <i className='fa fa-money'></i>
+        <span className='fa fa-money'></span>
         <span> Personal Finances</span>
       </span>
     </a>

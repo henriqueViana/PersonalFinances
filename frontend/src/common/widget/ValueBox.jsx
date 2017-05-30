@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '../layout/grid';
+import Grid from '../layout/Grid';
 
 export default props => (
   <Grid cols={props.cols}>
@@ -9,7 +9,7 @@ export default props => (
         <p>{props.text}</p>
       </div>
       <div className='icon'>
-        <i className={`fa fa-${props.icon}`}></i>
+        <span className={`fa fa-${props.icon}`}></span>
       </div>
     </div>
   </Grid>
