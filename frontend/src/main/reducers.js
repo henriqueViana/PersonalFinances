@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import dashboardReducers from '../dashboard/dashboardReducers';
+import DashboardReducers from '../dashboard/dashboardReducers';
+import TabReducer from '../common/tab/tabReducer';
 
 const rootReducer = combineReducers({
-  dashboard: dashboardReducers
+  dashboard: DashboardReducers ,
+  tab: TabReducer
 });
 
 export default rootReducer;

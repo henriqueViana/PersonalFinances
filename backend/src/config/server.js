@@ -1,9 +1,9 @@
-const PORT = 3000;
-const bodyParser = require('body-parser');
 const express = require('express');
 const server = express();
+const bodyParser = require('body-parser');
 const cors = require('./cors');
 const queryParser = require('express-query-int');
+const PORT = 3000;
 
 server.use(bodyParser.urlencoded({extended: true}));
 server.use(bodyParser.json());
