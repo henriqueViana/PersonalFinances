@@ -5,6 +5,7 @@ import Header from '../common/template/Header';
 import Sidebar from '../common/template/Sidebar';
 import Footer from '../common/template/Footer';
 import Routes from './Routes';
+import Messages from '../common/msg/Messages';
 
 export default props => (
   <div className='wrapper'>
@@ -16,5 +17,6 @@ export default props => (
     </div>
 
     <Footer />
+    <Messages />
   </div>
 )
